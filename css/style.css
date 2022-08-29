@@ -1,0 +1,258 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css");
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Calibri";
+  }
+  /*section menue*/
+  .nav-link{
+    color: white;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .input_search{
+    margin-top: 10px;
+    border-top-left-radius: 8px;
+    height: 30px;
+  }
+  .ms-n5 {
+    margin-top: 10px;
+    border-radius: 0;  
+    height: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.navbar{
+    background-color: #3b3f43;
+    opacity: 0.9;
+}
+/*section banner*/
+.content_logo_sur_banner{
+    background-color: #ffff;
+    box-shadow: 23px 60px 51px 40px #fff;
+    height: 15%;
+}
+#banner{
+    background-image: url('images/2\ \(fcp12\).jpg');
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logos_sur_banner{
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+}
+.titre_demande_credit{
+    margin-left: -2.5rem;
+}
+#demande_credit{
+    position: absolute;
+    background-color: #3b3f43;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    opacity: 0.9;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+.btn_inscription{
+    background-color: #fd2d18;
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 12rem;
+    border: #fd2d18 1px solid;
+   
+}
+.btn_cta{
+    background-color: #ff7403;
+    padding: 5px;
+    border-radius: 45px;
+    border: #fc8627 1px solid;
+    width: 17rem;
+    height: 4rem;
+    box-shadow: 5px 10px;
+}
+.btn_cht{
+    background-color: #085b93;
+    padding: 5px;
+    border-radius: 45px;
+    border: #2a8ccd 1px solid;
+    width: 19rem;
+    height: 4rem;
+    box-shadow: 5px 10px;
+}
+.lien_btn_credit{
+    margin-left: -4rem;
+}
+.lien_btn_cht{
+    margin-left: -5rem;
+}
+.arrow{
+    font-size: 45px;
+}
+.mesage_btn_cta{
+    margin-top: -2.5rem;
+}
+
+.div_img_banner{
+    background-image: url('images/9\ \(fcp12\).jpg');
+    height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mot_du_ministre{
+    background-color: #045894;
+    opacity: 0.7;
+}
+.img_du_ministre{
+    margin-top: -2.8rem;
+    border: 4px solid white;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+#section_assistance{
+ 
+}
+.assistance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd7e14 ;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.contact_assistance{
+    height: 50px;
+    padding: 15px;
+    background-color: #3b3f43;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bar_separateur {
+    border-left: 3px solid white;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .bar_separateur_contact{
+    border-left: 3px solid white;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .bar_separateur_assistance{
+    border-left: 3px solid white;
+    height: 25px;
+    margin-top: 0px;
+  }
+  .accompagnement{
+    background-image: url('images/5 (fcp17).jpg');
+    object-fit: contain;
+    position: relative;
+    width: 100%;
+  }
+  .img_accompagnement{
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+  }
+  .accompagnement div{
+    
+  }
+  .text_accompagnement{
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+    left: 5%;
+  }
+  .text_accompagnement h2{
+    font-weight: bold;
+    font-size: 48px;
+    
+  }
+
+.nos_partenaire{
+  
+    height: 55px;
+    padding: 15px;
+    background-color: #3b3f43;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+.test{
+   
+}
+#nos_partenaires{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nos_partenaire div{
+    padding: 15px; 
+}
+.logo_partenaires{
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.conent_a_propos{
+    position: absolute;
+    padding: 30px;
+    bottom: 0%;
+    color: white;
+    background-color: #3b3f43;
+    border-top-right-radius: 15px;
+    opacity: 0.9;
+
+}
+.nous_contacter{
+    background-color: #3b94cc;
+}
+.media a{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.div_content_a_propos{
+    background-image: url('images/10 Gorée.jpg');
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1000px) {
+    
+    .lien_btn_credit .lien_btn_cht{
+        margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 715px) {
+    .nav-link{
+        margin: 2px;
+        font-size: 16px;
+      }
+    .div_btn_cta{
+        margin-bottom:10px;
+    }
+  }
+  
+   
