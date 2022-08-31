@@ -19,6 +19,11 @@ body{
     border-top-left-radius: 8px;
     height: 30px;
   }
+  .logosmtta{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
   .ms-n5 {
     margin-top: 10px;
     border-radius: 0;  
@@ -34,11 +39,11 @@ body{
 /*section banner*/
 .content_logo_sur_banner{
     background-color: #ffff;
-    box-shadow: 23px 60px 51px 40px #fff;
+    box-shadow: 0px 60px 51px 40px #fff;
     height: 15%;
 }
 #banner{
-    background-image: url('images/2\ \(fcp12\).jpg');
+    background-image: url('/images/2\ \(fcp12\).jpg');
     height: 100vh;
     position: relative;
     background-size: cover;
@@ -50,7 +55,7 @@ body{
     object-fit: contain;
 }
 .titre_demande_credit{
-    margin-left: -2.5rem;
+    /*margin-left: -2.5rem;*/
 }
 #demande_credit{
     position: absolute;
@@ -61,17 +66,16 @@ body{
     bottom: 20%;
     left: 0;
     right: 0;
-    margin: 0 auto;
 
 }
 .btn_inscription{
     background-color: #fd2d18;
     border-radius: 25px;
-    padding: 5px;
+    padding: 2px;
     color: white;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
-    width: 12rem;
+    width: 15rem;
     border: #fd2d18 1px solid;
    
 }
@@ -107,7 +111,7 @@ body{
 }
 
 .div_img_banner{
-    background-image: url('images/9\ \(fcp12\).jpg');
+    background-image: url('/images/9\ \(fcp12\).jpg');
     height: 12rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,12 +123,10 @@ body{
 .img_du_ministre{
     margin-top: -2.8rem;
     border: 4px solid white;
+    z-index: 1;
     height: 160px;
     width: 160px;
     object-fit: cover;
-}
-#section_assistance{
- 
 }
 .assistance{
     display: flex;
@@ -159,18 +161,18 @@ body{
     margin-top: 0px;
   }
   .accompagnement{
-    background-image: url('images/5 (fcp17).jpg');
-    object-fit: contain;
+    background-image: url('/images/5\ 1\(fcp17\).jpg');
     position: relative;
-    width: 100%;
-  }
-  .img_accompagnement{
-    width: 100%;
-    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
+    height:100vh;
   }
-  .accompagnement div{
-    
+  .box_shadow_accompagnement{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    box-shadow: 0px -25px 42px 67px #fff;
   }
   .text_accompagnement{
     position: absolute;
@@ -196,8 +198,10 @@ body{
     justify-content: center;
     opacity: 0.8;
 }
-.test{
-   
+.logo_partenaire{
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
 }
 #nos_partenaires{
     
@@ -220,6 +224,7 @@ body{
     background-color: #3b3f43;
     border-top-right-radius: 15px;
     opacity: 0.9;
+    width: 50%;
 
 }
 .nous_contacter{
@@ -232,7 +237,7 @@ body{
 }
 
 .div_content_a_propos{
-    background-image: url('images/10 Gorée.jpg');
+    background-image: url('/images/10\ Gorée.jpg');
     height: 100vh;
     position: relative;
     background-size: cover;
@@ -252,6 +257,15 @@ body{
       }
     .div_btn_cta{
         margin-bottom:10px;
+    }
+    #demande_credit{
+        bottom: 5%;
+        left: 1%;
+        right: 1%;
+    }
+    .conent_a_propos{
+        width: 100%;
+    
     }
   }
   

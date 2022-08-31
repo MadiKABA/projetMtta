@@ -16,7 +16,7 @@ body{
   }
 
 .navbar{
-    background-color: #358BC6;
+    background-color: #3b3f43;
     opacity: 0.9;
 }
 .btn_connexion{
@@ -24,7 +24,7 @@ body{
     border-radius: 5px;
     border: 0px solid #FFC107;
 }
-.btn_inscription{
+.btn_inscription_cta{
     background-color: #F08528;
     border-radius: 5px;
     border: 0px solid #F08528;
@@ -39,7 +39,7 @@ body{
     height: 70px;
     object-fit: cover;
 }
-#banner{
+#banner_cta{
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url('/images/etablissementon2926.jpg');
    /*background-image:url('/images/etablissementon2926.jpg');*/
     height: 110vh;
@@ -141,8 +141,22 @@ li{
 }
 @media only screen and (max-width: 1000px) {
     
-    .lien_btn_credit .lien_btn_cht{
-        margin-left: 0;
+    .col_footer{
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        padding: 0 15px 0 15px;
+    }
+    .bar_separateur_footer{
+        border-bottom: 3px solid white;
+        height: 0.0rem;
+    }
+    .lien_media_sociaux svg{
+        width: 1.3em;
+    }
+    .copyright{
+        font-size: 13px;
+
     }
   }
 
