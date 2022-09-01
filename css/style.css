@@ -14,6 +14,16 @@ body{
     font-size: 24px;
     font-weight: 700;
   }
+  .btn_connexion{
+    background-color: #FFC107;
+    border-radius: 5px;
+    border: 0px solid #FFC107;
+}
+.btn_inscription_cta{
+    background-color: #F08528;
+    border-radius: 5px;
+    border: 0px solid #F08528;
+}
   .input_search{
     margin-top: 10px;
     border-top-left-radius: 8px;
@@ -24,13 +34,8 @@ body{
     height: 70px;
     object-fit: cover;
 }
-  .ms-n5 {
-    margin-top: 10px;
-    border-radius: 0;  
-    height: 30px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-
+.navbar-nav{
+    padding-left: 10rem;
 }
 .navbar{
     background-color: #3b3f43;
@@ -38,9 +43,11 @@ body{
 }
 /*section banner*/
 .content_logo_sur_banner{
+    position: absolute;
     background-color: #ffff;
     box-shadow: 0px 60px 51px 40px #fff;
     height: 15%;
+    top:0;
 }
 #banner{
     background-image: url('/images/2\ \(fcp12\).jpg');
@@ -48,6 +55,10 @@ body{
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.img_slider{
+    height: 100vh;
+    object-fit: cover;
 }
 .logos_sur_banner{
     width: 40%;
@@ -62,8 +73,9 @@ body{
     background-color: #3b3f43;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    width: 60%;
     opacity: 0.9;
-    bottom: 20%;
+    bottom: 25%;
     left: 0;
     right: 0;
 
@@ -110,15 +122,8 @@ body{
     margin-top: -2.5rem;
 }
 
-.div_img_banner{
-    background-image: url('/images/9\ \(fcp12\).jpg');
-    height: 12rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 #mot_du_ministre{
-    background-color: #045894;
-    opacity: 0.7;
+    background-color: #53a3dc;;
 }
 .img_du_ministre{
     margin-top: -2.8rem;
@@ -128,14 +133,16 @@ body{
     width: 160px;
     object-fit: cover;
 }
+#section_assistance{
+    background-color: #fbfbf9;
+}
 .assistance{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fd7e14 ;
-    height: 100%;
-    padding-top: 15px;
+    
 }
 
 .contact_assistance{
@@ -237,16 +244,25 @@ body{
 }
 
 .div_content_a_propos{
-    background-image: url('/images/10\ Gorée.jpg');
-    height: 100vh;
+    /*background-image: url('/images/10\ Gorée.jpg');*/
+    height: 80%;
+    width: 100%;
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: contain;
 }
 @media only screen and (max-width: 1000px) {
     
     .lien_btn_credit .lien_btn_cht{
         margin-left: 0;
+    }
+    .navbar-nav{
+        padding-left: 0;
+    }
+    #demande_credit{
+        width: 100%;
+    }
+    #mot_du_ministre{
+        height: auto;
     }
   }
 
@@ -260,12 +276,15 @@ body{
     }
     #demande_credit{
         bottom: 5%;
-        left: 1%;
-        right: 1%;
     }
     .conent_a_propos{
         width: 100%;
-    
+    }
+    .navbar-nav{
+        padding-left: 0;
+    }
+    #mot_du_ministre{
+        height: auto;
     }
   }
   

@@ -24,45 +24,75 @@
     <div class="container-fluid">
       <a class="navbar-brand ms-5" href="#"><img src="images/Tourisme-et-des-Transports-Aériens.png"
         class="logosmtta" alt="" srcset=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto text-white me-auto text-center">
-          <li class="nav-item ">
-            <a class="nav-link" aria-current="page" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Inscription</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Connexion</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/cta.html">CTA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/cht.html" >CHT</a>
-          </li>
-        </ul>
-        <form action="">
-          <div class="input-group">
-            <input class="form-control border-end-0 border input_search" type="search" value=""
-              id="example-search-input">
-            <span class="input-group-append">
-              <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
-                type="button">
-                <i class="bi bi-search"></i>
-              </button>
-            </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-white me-auto text-center">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link active_link" href="/cta.html">CTA</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="/cht.html">CHT</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="me-3">
+              <button class="mx-3 px-2 py-1 btn_connexion text-white fw-bold fs-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+                      <g transform="translate(20 0) scale(-1 1)">
+                          <path fill="currentColor" fill-rule="evenodd"
+                              d="M3 3a1 1 0 0 1 1 1v12a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1Zm7.707 3.293a1 1 0 0 1 0 1.414L9.414 9H17a1 1 0 1 1 0 2H9.414l1.293 1.293a1 1 0 0 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a1 1 0 0 1 1.414 0Z"
+                              clip-rule="evenodd" />
+                      </g>
+                  </svg>
+                  Connexion</button>
+              <button class="mx-2 px-2 py-1 btn_inscription_cta text-white fw-bold fs-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                      <path fill="currentColor"
+                          d="M12 2a5 5 0 1 0 5 5a5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3a3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z" />
+                  </svg>
+                  Inscription</button>
           </div>
-        </form>
-      </div>
+        </div>
     </div>
-  </nav>
+</nav>
   <section>
     <div class="" id="banner">
+      <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="fs-1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/2 (fcp12).jpg" class="d-block w-100 img_slider" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/10 Gorée.jpg" class="d-block w-100 img_slider" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/5 (fcp17).jpg" class="d-block w-100 img_slider" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <div class="d-flex justify-content-between pt-4 content_logo_sur_banner">
         <div class="d-flex justify-content-center">
           <img src="images/Senegal.png" class="img-fluid logos_sur_banner" alt="" srcset="">
@@ -74,7 +104,7 @@
           <img src="images/logoGC3.png" class="img-fluid logos_sur_banner" alt="" srcset="">
         </div>
       </div>
-      <div id="demande_credit" class="container p-2">
+      <div id="demande_credit" class="container py-3">
         <div class="row my-4 mx-0 container">
           <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-end">
             <h2 class="text-white fw-bold titre_demande_credit">DEMANDE DE CREDIT</h2>
@@ -84,7 +114,7 @@
           </div>
         </div>
         <div class="text-white div_demande_credit px-md-5 ms-5">
-          <p class="ms-md-5 ps-md-5"> Vous êtes une entreprise évoluant dans le secteur hôtelier ou touristique ou du
+          <p class="ps-md-2"> Vous êtes une entreprise évoluant dans le secteur hôtelier ou touristique ou du
             transport aérien?<br>
             Inscrivez-vous et soumette zvotre demande de crédits pour l'un des deux crédits mis en place.</p>
         </div>
@@ -119,7 +149,6 @@
         </div>
       </div>
     </div>
-    <div class="div_img_banner"></div>
     <div class="" id="mot_du_ministre" clas="pb-3">
       <div class="container row">
         <div class="col-md-4 col-sm-12 d-flex justify-content-md-end justify-content-sm-center">
@@ -132,7 +161,7 @@
           <h2 class="text-white ms-2 mt-2 fw-bold">MOT DU MINISTRE</h2>
         </div>
       </div>
-      <div class="container text-white pt-5 fs-md-5">
+      <div class="container text-white pt-5 fs-5">
         <p>
           Avec l’apparition de la pandémie de COVID-19, l’industrie du Transport aérien a connu l’une des
           plus graves crises de son histoire. Au Sénégal, l’une des mesures prises pour arrêter la
@@ -165,18 +194,18 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="row mx-0" id="section_assistance">
-      <div class="col-md-5 col-sm-12">
-        <img src="images/assistante.jpg" alt="" srcset="" style="object-fit: cover;" width="100%" height="100%">
+ <section>
+    <div class="row mx-0 bg-danger" id="section_assistance">
+      <div class="col-md-6 col-sm-12 bg-info p-0">
+        <img src="images/assistante.jpg" alt="" class="img-fluid" srcset="" style="width: 100%;object-fit: cover;height: 100%;">
       </div>
-      <div class="col-md-7 col-sm-12 assistance text-white pt-5 mt-md-5">
-        <div class="d-flex mt-4">
+      <div class="col-md-6 col-sm-12 assistance text-white">
+        <div class="d-flex mt-4   ">
           <i class="bi bi-headset" style="color:white; font-size:40px"></i>
           <div class="bar_separateur mx-1"></div>
-          <h2 class="mt-1 fw-bold" style="font-size: 38px;">ASSISTANCE</h2>
+          <h2 class=" fw-bold" style="font-size: 45px;">ASSISTANCE</h2>
         </div>
-        <p class="text-center fs--md-5">Vous avez besoin d'aide ou de conseils?<br>
+        <p class="text-center fs-5">Vous avez besoin d'aide ou de conseils?<br>
           Une équipe est exclusivement mise en place pour vous!<br>
           Saisissez votre demande ou contactez-nous par téléphone</p>
         <div class="d-flex contact_assistance mt-5 justify-content-center">
@@ -211,7 +240,8 @@
     </div>
   </section>
   <section id="a_propos">
-    <div class="position-relative div_content_a_propos mt-5">
+    <div class="position-relative  mt-5">
+      <img src="/images/10 Gorée.jpg" class="div_content_a_propos" style="width: 100%;height:500px; object-fit: cover;" alt="" srcset="">
       <div class="conent_a_propos mt-5 py-5">
         <div class="d-flex align-items-end justify-content-center">
           <div class="d-flex text-center text-white">
@@ -221,7 +251,7 @@
           </div>
         </div>
         <div>
-          <p class="text-start px-md-5">
+          <p class="text-start px-md-5 fs-5">
             75 milliards de francs CFA. C’est la somme décaissée par l’Etat du
             Sénégal pour la relance du tourisme et du transport aérien.
             En effet, une ligne de crédit de 50 milliards en faveur du secteur
@@ -266,7 +296,7 @@
     </div>
   </section>
   <section>
-    <div class="container p-3 fs-4">Copyright© 2021 MTTA</div>
+    <div class="container fs-5">Copyright© 2021 MTTA</div>
   </section>
 </body>
 
