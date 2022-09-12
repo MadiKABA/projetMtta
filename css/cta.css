@@ -40,7 +40,7 @@ body{
     object-fit: cover;
 }
 #banner_cta{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url('/images/etablissementon2926.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url('../images/etablissementon2926.jpg');
    /*background-image:url('/images/etablissementon2926.jpg');*/
     height: 110vh;
     background-repeat: no-repeat;

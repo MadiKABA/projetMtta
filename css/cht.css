@@ -1,6 +1,6 @@
 
 .col2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/images/cht2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../images/cht2.jpg');
    /*background-image:url('/images/etablissementon2926.jpg');*/
     height: 110vh;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     flex-direction: column
 }
 .col1{
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)),url('/images/cht1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)),url('../images/cht1.jpg');
    /*background-image:url('/images/etablissementon2926.jpg');*/
     height: 110vh;
     background-repeat: no-repeat;
