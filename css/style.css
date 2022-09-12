@@ -30,8 +30,8 @@ body{
     height: 30px;
   }
   .logosmtta{
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 100px;
     object-fit: cover;
 }
 .navbar-nav{
